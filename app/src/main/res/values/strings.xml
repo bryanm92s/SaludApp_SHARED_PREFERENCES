@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SaludAPP</string>
+    <string name="titulo">Formulario</string>
+    <string name="bienvenido">Bienvenido, ésta fué la información ingresada</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="edad">Edad</string>
+    <string name="correo">Correo</string>
+    <string name="rbMasc">Masculino</string>
+    <string name="rbFem">Femenino</string>
+    <string name="enviar">Enviar</string>
+    <string name="csharp">C#</string>
+    <string name="js">Javascript</string>
+    <string name="android">Android</string>
+    <string name="lenguajes">Lenguajes de programación favoritos</string>
+    <string name="nombres">Nombres</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="genero">Género</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="csharp">C#</string>
+    <string name="js">Javascript</string>
+    <string name="android">Android</string>
+    <string name="lenguajes">Lenguajes de programación favoritos</string>
+    <string name="nombres_y_apellidos">Nombres y Apellidos</string>
+    <string name="genero">Género</string>
+    <string name="lenguaje">Lenguaje</string>
+</resources>
