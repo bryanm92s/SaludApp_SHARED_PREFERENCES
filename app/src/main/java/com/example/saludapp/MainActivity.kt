@@ -43,6 +43,8 @@ class MainActivity : AppCompatActivity() {
         if (etName.text.toString().isNotEmpty()){
             // Guardamos el usuario
             prefs.saveName(etName.text.toString())
+            prefs.saveApellido(etApellido.text.toString())
+            prefs.saveEdad(etEdad.text.toString())
             prefs.saveVip(cbVip.isChecked)
             goToDetail()
         }else{

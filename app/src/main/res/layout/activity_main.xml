@@ -13,7 +13,22 @@
         android:layout_marginTop="15dp"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:hint="Nombre"/>
+        android:hint="Nombres"/>
+
+    <EditText
+        android:id="@+id/etApellido"
+        android:layout_marginTop="15dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Apellidos"/>
+
+    <EditText
+        android:id="@+id/etEdad"
+        android:inputType="number"
+        android:layout_marginTop="15dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Edad"/>
 
     <CheckBox
         android:id="@+id/cbVip"

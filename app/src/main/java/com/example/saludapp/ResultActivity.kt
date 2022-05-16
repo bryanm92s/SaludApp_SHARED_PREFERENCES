@@ -20,7 +20,13 @@ class ResultActivity : AppCompatActivity() {
         }
         // El nombre del usuario lo tenemos en las preferencias
         val userName = prefs.getName()
+        val apellido = prefs.getApellido()
+        val edad = prefs.getEdad()
+
         tvName.text = "Bienvenido $userName"
+        tvApellido.text ="Su apellido es: $apellido"
+        tvEdad.text="Su edad es: $edad"
+
         // Si es vip
         if (prefs.getVip()) {
             setVipColorBackground()

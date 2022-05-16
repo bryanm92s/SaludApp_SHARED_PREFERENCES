@@ -14,8 +14,24 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:textStyle="bold"
-        android:textSize="20sp"
-        tools:text="Bienvenido Bryan"/>
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvEdad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
 
     <Button
         android:id="@+id/btnBack"
